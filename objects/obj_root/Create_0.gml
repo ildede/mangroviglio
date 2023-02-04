@@ -6,10 +6,10 @@ isActive = true;
 isVisible = true;
 image_alpha = .75;
 
-obj_tree.activeRoot = self;
-//dir = "right";
 alarm[2] = 2;
+dirGiven = false;
 /*
+dir = "right";
 switch(dir)
 {
 	case "right": xx = x + 16; yy = y; break;

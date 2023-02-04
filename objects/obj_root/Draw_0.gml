@@ -1,10 +1,10 @@
-/// @description Insert description here
+/// @description Draw next blinking root
 
 draw_self();
 
-if !isActive exit
+if !isActive or !dirGiven exit
 
 if isVisible
 {
-	draw_sprite(spr_root, 0, xx, yy);
+	draw_sprite_ext(spr_root, 0, xx, yy, 1, 1, 0, image_blend, 1);
 };

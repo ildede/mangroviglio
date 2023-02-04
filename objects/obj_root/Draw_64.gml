@@ -1,5 +1,7 @@
 /// @description
 
+if !dirGiven exit
+
 if isActive and (branchNumber == obj_tree.selectedBranch +1)
 {
 	draw_text(50, 200, "R: " + string(colRight));

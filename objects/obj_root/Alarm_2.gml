@@ -6,3 +6,5 @@ switch(dir)
 	case "up": xx = x; yy = y - 16; break;
 	case "down": xx = x; yy = y + 16; break;
 };
+
+dirGiven = true;
