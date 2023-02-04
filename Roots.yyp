@@ -38,6 +38,7 @@
     {"id":{"name":"spr_tree","path":"sprites/spr_tree/spr_tree.yy",},"order":0,},
     {"id":{"name":"spr_root_straight","path":"sprites/spr_root_straight/spr_root_straight.yy",},"order":0,},
     {"id":{"name":"spr_root","path":"sprites/spr_root/spr_root.yy",},"order":1,},
+    {"id":{"name":"obj_root_bent","path":"objects/obj_root_bent/obj_root_bent.yy",},"order":0,},
     {"id":{"name":"spr_starting_tree","path":"sprites/spr_starting_tree/spr_starting_tree.yy",},"order":0,},
     {"id":{"name":"obj_root_straight","path":"objects/obj_root_straight/obj_root_straight.yy",},"order":0,},
     {"id":{"name":"spr_root_end","path":"sprites/spr_root_end/spr_root_end.yy",},"order":0,},
