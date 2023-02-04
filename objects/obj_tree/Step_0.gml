@@ -1,7 +1,7 @@
 /// @description 
 
-rootPlus = keyboard_check_pressed(vk_add);
-rootMinus = keyboard_check_pressed(vk_subtract);
+rootPlus = keyboard_check_pressed(vk_add) || keyboard_check_pressed(ord("P"));
+rootMinus = keyboard_check_pressed(vk_subtract) || keyboard_check_pressed(ord("M"));
 
 right = keyboard_check_pressed(vk_right);
 left = keyboard_check_pressed(vk_left);
