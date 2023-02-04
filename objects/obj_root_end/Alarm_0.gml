@@ -54,15 +54,20 @@ switch (self.direction)
 {
 	case 0:
 		self.x += sprite_width;
+		self.image_angle = 270;
 	break;
 	case 90:
 		self.y -= self.sprite_height;
+		self.image_angle = 0;
 	break;
 	case 180:
 		self.x -= self.sprite_width;
+		self.image_angle = 90;
 	break;
 	case 270:
 		self.y += self.sprite_height;
+		self.image_angle = 180;
 	break;
 }
+self.sprite_index = spr_root_end;
 alarm[0] = room_speed * 2;

@@ -23,7 +23,9 @@
     {"name":"obj_root_bent","order":5,"path":"objects/obj_root_bent/obj_root_bent.yy",},
     {"name":"spr_starting_tree","order":2,"path":"sprites/spr_starting_tree/spr_starting_tree.yy",},
     {"name":"obj_root_straight","order":4,"path":"objects/obj_root_straight/obj_root_straight.yy",},
+    {"name":"spr_root_end_left","order":7,"path":"sprites/spr_root_end_left/spr_root_end_left.yy",},
     {"name":"spr_root_end","order":3,"path":"sprites/spr_root_end/spr_root_end.yy",},
+    {"name":"spr_root_end_right","order":6,"path":"sprites/spr_root_end_right/spr_root_end_right.yy",},
     {"name":"spr_root_bent","order":5,"path":"sprites/spr_root_bent/spr_root_bent.yy",},
   ],
 }
