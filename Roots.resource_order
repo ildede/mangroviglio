@@ -19,7 +19,7 @@
     {"name":"obj_root_end","order":3,"path":"objects/obj_root_end/obj_root_end.yy",},
     {"name":"obj_root","order":1,"path":"objects/obj_root/obj_root.yy",},
     {"name":"spr_root_straight","order":4,"path":"sprites/spr_root_straight/spr_root_straight.yy",},
-    {"name":"Sprite9","order":8,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"spr_water","order":8,"path":"sprites/spr_water/spr_water.yy",},
     {"name":"spr_root","order":1,"path":"sprites/spr_root/spr_root.yy",},
     {"name":"obj_root_bent","order":5,"path":"objects/obj_root_bent/obj_root_bent.yy",},
     {"name":"spr_starting_tree","order":2,"path":"sprites/spr_starting_tree/spr_starting_tree.yy",},
