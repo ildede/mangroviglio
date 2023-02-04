@@ -5,55 +5,75 @@ switch (self.direction)
 {
 	case 0:
 		var new_x = self.x + self.sprite_width;
+		var new_y = self.y;
 		if (new_x > room_width)
 		{
 			could_grow = false
 		}
 
-		var root_found = instance_place(new_x, self.y, deployed_root);
-		if (root_found != noone && root_found.green_level > 0)
+		if (place_meeting(new_x, new_y, all))
 		{
 			could_grow = false;
+			var root_found = instance_place(new_x, new_y, deployed_root);
+			if (root_found != noone && root_found.green_level = 0)
+			{
+				could_grow = true;
+			}			
 		}
+
 	break;
 	case 90:
+		var new_x = self.x;
 		var new_y = self.y - self.sprite_height;
 		if (new_y < 0)
 		{
 			could_grow = false
 		}
 
-		var root_found = instance_place(self.x, new_y, deployed_root);
-		if (root_found != noone && root_found.green_level > 0)
+		if (place_meeting(new_x, new_y, all))
 		{
 			could_grow = false;
+			var root_found = instance_place(new_x, new_y, deployed_root);
+			if (root_found != noone && root_found.green_level = 0)
+			{
+				could_grow = true;
+			}			
 		}
 	break;
 	case 180:
 		var new_x = self.x - self.sprite_width;
+		var new_y = self.y;
 		if (new_x < 0)
 		{
 			could_grow = false
 		}
 
-		var root_found = instance_place(new_x, self.y, deployed_root);
-		if (root_found != noone && root_found.green_level > 0)
+		if (place_meeting(new_x, new_y, all))
 		{
 			could_grow = false;
+			var root_found = instance_place(new_x, new_y, deployed_root);
+			if (root_found != noone && root_found.green_level = 0)
+			{
+				could_grow = true;
+			}			
 		}
-
 	break;
 	case 270:
+		var new_x = self.x;
 		var new_y = self.y + self.sprite_height;
 		if (new_y > room_height)
 		{
 			could_grow = false;
 		}
 
-		var root_found = instance_place(self.x, new_y, deployed_root);
-		if (root_found != noone && root_found.green_level > 0)
+		if (place_meeting(new_x, new_y, all))
 		{
 			could_grow = false;
+			var root_found = instance_place(new_x, new_y, deployed_root);
+			if (root_found != noone && root_found.green_level = 0)
+			{
+				could_grow = true;
+			}			
 		}
 	break;
 }

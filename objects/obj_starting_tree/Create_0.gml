@@ -33,3 +33,12 @@ array_push(
 );
 
 variable_instance_set(self.roots[active_root], "is_active", true);
+
+self.rocks = [];
+
+array_push(
+	self.rocks,
+	create_fixed()
+);
+
+alarm[0] = room_speed * 4;
