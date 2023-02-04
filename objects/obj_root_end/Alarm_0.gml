@@ -1,22 +1,60 @@
 /// @description Grow
+
 var could_grow = true;
 switch (self.direction)
 {
 	case 0:
 		var new_x = self.x + self.sprite_width;
-		could_grow = !place_meeting(new_x, self.y, all) && new_x < room_width;
+		if (new_x > room_width)
+		{
+			could_grow = false
+		}
+
+		var root_found = instance_place(new_x, self.y, deployed_root);
+		if (root_found != noone && root_found.green_level > 0)
+		{
+			could_grow = false;
+		}
 	break;
 	case 90:
 		var new_y = self.y - self.sprite_height;
-		could_grow = !place_meeting(self.x, new_y, all) && new_y > 0;
+		if (new_y < 0)
+		{
+			could_grow = false
+		}
+
+		var root_found = instance_place(self.x, new_y, deployed_root);
+		if (root_found != noone && root_found.green_level > 0)
+		{
+			could_grow = false;
+		}
 	break;
 	case 180:
 		var new_x = self.x - self.sprite_width;
-		could_grow = !place_meeting(new_x, self.y, all) && new_x > 0;
+		if (new_x < 0)
+		{
+			could_grow = false
+		}
+
+		var root_found = instance_place(new_x, self.y, deployed_root);
+		if (root_found != noone && root_found.green_level > 0)
+		{
+			could_grow = false;
+		}
+
 	break;
 	case 270:
 		var new_y = self.y + self.sprite_height;
-		could_grow = !place_meeting(x, new_y, all) && new_y < room_height;
+		if (new_y > room_height)
+		{
+			could_grow = false;
+		}
+
+		var root_found = instance_place(self.x, new_y, deployed_root);
+		if (root_found != noone && root_found.green_level > 0)
+		{
+			could_grow = false;
+		}
 	break;
 }
 
