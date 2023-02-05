@@ -43,6 +43,8 @@
     {"name":"obj_root_straight","order":2,"path":"objects/obj_root_straight/obj_root_straight.yy",},
     {"name":"spr_root_end_left","order":1,"path":"sprites/spr_root_end_left/spr_root_end_left.yy",},
     {"name":"spr_croc","order":1,"path":"sprites/spr_croc/spr_croc.yy",},
+    {"name":"title_screen_loop","order":1,"path":"sounds/title_screen_loop/title_screen_loop.yy",},
+    {"name":"title_screen_fade_in","order":2,"path":"sounds/title_screen_fade_in/title_screen_fade_in.yy",},
     {"name":"spr_root_end_right","order":2,"path":"sprites/spr_root_end_right/spr_root_end_right.yy",},
     {"name":"obj_rock_2","order":3,"path":"objects/obj_rock_2/obj_rock_2.yy",},
     {"name":"obj_temporary_obstacle","order":5,"path":"objects/obj_temporary_obstacle/obj_temporary_obstacle.yy",},

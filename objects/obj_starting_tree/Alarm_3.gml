@@ -1,2 +1,1 @@
-
-alarm[3] = room_speed * 1;
+audio_play_sound(title_screen_loop, 1, true);
