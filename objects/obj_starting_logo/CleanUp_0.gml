@@ -1,0 +1,2 @@
+audio_stop_sound(title_screen_fade_in);
+audio_stop_sound(title_screen_loop);
