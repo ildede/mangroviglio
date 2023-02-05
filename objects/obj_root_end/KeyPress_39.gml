@@ -1,4 +1,4 @@
-if (is_active)
+if (is_active && !is_dead)
 {
 	switch (self.prev_direction)
 	{
