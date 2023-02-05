@@ -42,6 +42,7 @@
     {"id":{"name":"spr_rock_1","path":"sprites/spr_rock_1/spr_rock_1.yy",},"order":0,},
     {"id":{"name":"obj_root_end","path":"objects/obj_root_end/obj_root_end.yy",},"order":0,},
     {"id":{"name":"obj_croc","path":"objects/obj_croc/obj_croc.yy",},"order":0,},
+    {"id":{"name":"alpha_filter","path":"sprites/alpha_filter/alpha_filter.yy",},"order":0,},
     {"id":{"name":"obj_root","path":"objects/obj_root/obj_root.yy",},"order":1,},
     {"id":{"name":"deployed_root","path":"objects/deployed_root/deployed_root.yy",},"order":0,},
     {"id":{"name":"spr_rock_3","path":"sprites/spr_rock_3/spr_rock_3.yy",},"order":0,},

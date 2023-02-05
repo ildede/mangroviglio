@@ -25,6 +25,7 @@
     {"name":"spr_rock_1","order":2,"path":"sprites/spr_rock_1/spr_rock_1.yy",},
     {"name":"obj_root_end","order":3,"path":"objects/obj_root_end/obj_root_end.yy",},
     {"name":"obj_croc","order":1,"path":"objects/obj_croc/obj_croc.yy",},
+    {"name":"alpha_filter","order":15,"path":"sprites/alpha_filter/alpha_filter.yy",},
     {"name":"obj_root","order":1,"path":"objects/obj_root/obj_root.yy",},
     {"name":"deployed_root","order":4,"path":"objects/deployed_root/deployed_root.yy",},
     {"name":"spr_rock_3","order":4,"path":"sprites/spr_rock_3/spr_rock_3.yy",},
