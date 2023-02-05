@@ -6,14 +6,8 @@ function create_fixed() {
 	var column_count = floor(room_width / obj_width);
 	var row_count = floor(room_height / obj_height);
 
-	show_debug_message("column_count: " + string(column_count));
-	show_debug_message("row_count: " + string(row_count));
-
 	var new_x = floor(random(column_count)) * obj_width + obj_width/2;
 	var new_y = floor(random(row_count)) * obj_height + obj_height/2;
-
-	show_debug_message("new_x: " + string(new_x));
-	show_debug_message("new_y: " + string(new_y));
 
 	switch (floor(random(3)))
 	{

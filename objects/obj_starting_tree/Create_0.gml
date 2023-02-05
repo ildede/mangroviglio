@@ -7,7 +7,7 @@ function add_root_end(root_x, root_y, end_x, end_y, local_direction)
 	if (position_empty(end_x, end_y))
 	{
 		instance_create_depth(root_x, root_y, depth + 5, obj_root_straight, { image_angle: local_direction, image_xscale: 0.5, image_yscale: 0.5 })
-		return instance_create_depth(end_x, end_y, depth, obj_root_end, { image_angle: local_direction - 90, direction: local_direction, prev_direction: local_direction, image_xscale: 0.5, image_yscale: 0.5 });
+		return instance_create_depth(end_x, end_y, depth + 5, obj_root_end, { image_angle: local_direction - 90, direction: local_direction, prev_direction: local_direction, image_xscale: 0.5, image_yscale: 0.5 });
 	}
 	else return undefined;
 }
@@ -156,3 +156,4 @@ array_push(
 
 alarm[0] = room_speed * 4;
 alarm[1] = room_speed * 30;
+alarm[2] = room_speed * 1;

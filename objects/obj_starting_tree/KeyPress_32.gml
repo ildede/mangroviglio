@@ -1,9 +1,12 @@
-function set_next_active()
+if (array_length(self.roots) > 0)
 {
 	variable_instance_set(self.roots[active_root], "is_active", false);
 
 	var root_count = array_length(self.roots);
-	if (self.active_root < root_count-1)
+	if (root_count == 1) {
+		self.active_root = 0
+	}
+	else if (self.active_root < root_count-1)
 	{
 		self.active_root += 1;
 	}
@@ -14,7 +17,7 @@ function set_next_active()
 
 	variable_instance_set(self.roots[active_root], "is_active", true);
 }
-
-show_debug_message(self.roots);
-show_debug_message(self.active_root);
-set_next_active();
+else
+{
+	active_root = 0
+}

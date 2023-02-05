@@ -84,7 +84,7 @@ if (!self.is_dead)
 	{
 		if (self.prev_direction == self.direction)
 		{
-			instance_create_depth(self.x, self.y, self.depth, obj_root_straight, { image_angle: self.direction, image_xscale: 0.5, image_yscale: 0.5 });
+			instance_create_depth(self.x, self.y, self.depth - 5, obj_root_straight, { image_angle: self.direction, image_xscale: 0.5, image_yscale: 0.5 });
 		}
 		else
 		{
@@ -125,7 +125,7 @@ if (!self.is_dead)
 				bent_direction = 270;
 			}
 
-			instance_create_depth(self.x, self.y, self.depth, obj_root_bent, { image_angle: bent_direction, image_xscale: 0.5, image_yscale: 0.5 });
+			instance_create_depth(self.x, self.y, self.depth - 5, obj_root_bent, { image_angle: bent_direction, image_xscale: 0.5, image_yscale: 0.5 });
 			self.prev_direction = self.direction;
 		}
 
