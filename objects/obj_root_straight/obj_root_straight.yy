@@ -30,6 +30,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"green_level_2_spr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_root_straight_2","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"green_level_3_spr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_root_straight_3","varType":5,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"green_level_4_spr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_root_straight_4","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"green_level_5_spr","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_root_straight_5","varType":5,},
   ],
   "solid": false,
   "spriteId": {

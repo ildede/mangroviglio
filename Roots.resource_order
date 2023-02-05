@@ -22,6 +22,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_rock_3","order":4,"path":"objects/obj_rock_3/obj_rock_3.yy",},
     {"name":"obj_starting_tree","order":2,"path":"objects/obj_starting_tree/obj_starting_tree.yy",},
+    {"name":"spr_root_straight_5","order":4,"path":"sprites/spr_root_straight_5/spr_root_straight_5.yy",},
     {"name":"spr_rock_1","order":2,"path":"sprites/spr_rock_1/spr_rock_1.yy",},
     {"name":"obj_root_end","order":3,"path":"objects/obj_root_end/obj_root_end.yy",},
     {"name":"obj_croc","order":1,"path":"objects/obj_croc/obj_croc.yy",},
@@ -37,6 +38,7 @@
     {"name":"obj_root_bent","order":5,"path":"objects/obj_root_bent/obj_root_bent.yy",},
     {"name":"spr_root_bent_3","order":2,"path":"sprites/spr_root_bent_3/spr_root_bent_3.yy",},
     {"name":"spr_starting_tree","order":2,"path":"sprites/spr_starting_tree/spr_starting_tree.yy",},
+    {"name":"spr_root_bent_5","order":4,"path":"sprites/spr_root_bent_5/spr_root_bent_5.yy",},
     {"name":"spr_root_bent_4","order":3,"path":"sprites/spr_root_bent_4/spr_root_bent_4.yy",},
     {"name":"spr_rock_2","order":3,"path":"sprites/spr_rock_2/spr_rock_2.yy",},
     {"name":"obj_root_straight","order":4,"path":"objects/obj_root_straight/obj_root_straight.yy",},

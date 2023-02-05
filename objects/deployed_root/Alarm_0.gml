@@ -15,4 +15,9 @@ switch (self.green_level)
 		self.sprite_index = self.green_level_4_spr;
 		alarm[0] = room_speed * 12
 	break;
+	case 3:
+		self.green_level += 1
+		self.sprite_index = self.green_level_5_spr;
+		alarm[0] = room_speed * 12
+	break;
 }

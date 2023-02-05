@@ -1,3 +1,5 @@
+randomize();
+
 function add_root_end_up()
 {
 	instance_create_depth(x, y - sprite_get_height(spr_root_straight_1)*1.5, self.depth + 5, obj_root_straight, { image_angle: 90, image_xscale: 0.5, image_yscale: 0.5 })
@@ -38,7 +40,9 @@ self.rocks = [];
 
 array_push(
 	self.rocks,
-	create_fixed()
+	create_fixed(),
+	create_fixed(),
+	create_fixed(),
 );
 
 alarm[0] = room_speed * 4;
