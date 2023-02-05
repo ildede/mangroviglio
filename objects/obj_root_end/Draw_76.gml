@@ -4,7 +4,7 @@ if (is_dead)
 }
 else if (is_active)
 {
-	image_blend = c_green;
+	image_blend = c_lime;
 }
 else
 {

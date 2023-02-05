@@ -73,6 +73,7 @@
     {"id":{"name":"spr_rock_2","path":"sprites/spr_rock_2/spr_rock_2.yy",},"order":0,},
     {"id":{"name":"obj_root_straight","path":"objects/obj_root_straight/obj_root_straight.yy",},"order":0,},
     {"id":{"name":"Splash","path":"rooms/Splash/Splash.yy",},"order":0,},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":0,},
     {"id":{"name":"spr_root_end_left","path":"sprites/spr_root_end_left/spr_root_end_left.yy",},"order":0,},
     {"id":{"name":"spr_croc","path":"sprites/spr_croc/spr_croc.yy",},"order":0,},
     {"id":{"name":"title_screen_loop","path":"sounds/title_screen_loop/title_screen_loop.yy",},"order":0,},

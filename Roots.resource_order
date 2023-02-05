@@ -53,6 +53,7 @@
     {"name":"spr_rock_2","order":3,"path":"sprites/spr_rock_2/spr_rock_2.yy",},
     {"name":"obj_root_straight","order":2,"path":"objects/obj_root_straight/obj_root_straight.yy",},
     {"name":"Splash","order":1,"path":"rooms/Splash/Splash.yy",},
+    {"name":"spr_title","order":22,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_root_end_left","order":1,"path":"sprites/spr_root_end_left/spr_root_end_left.yy",},
     {"name":"spr_croc","order":1,"path":"sprites/spr_croc/spr_croc.yy",},
     {"name":"title_screen_loop","order":1,"path":"sounds/title_screen_loop/title_screen_loop.yy",},
