@@ -161,4 +161,4 @@ alarm[2] = room_speed * 1;
 var len;
 len = audio_sound_length(title_screen_fade_in);
 audio_play_sound(title_screen_fade_in, 1, false);
-alarm[3] = room_speed * len;
+alarm[3] = room_speed * len - 20;
