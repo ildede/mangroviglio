@@ -157,3 +157,11 @@ array_push(
 alarm[0] = room_speed * 4;
 alarm[1] = room_speed * 30;
 alarm[2] = room_speed * 1;
+
+if (!audio_is_playing(music_intro) && !audio_is_playing(music_loop))
+{
+	var len;
+	len = audio_sound_length(music_intro);
+	audio_play_sound(music_intro, 1, false);
+	alarm[5] = room_speed * len - 20;
+}
