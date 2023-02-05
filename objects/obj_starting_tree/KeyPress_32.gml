@@ -19,6 +19,11 @@ if (root_count > 0)
 	}
 
 	variable_instance_set(self.roots[active_root], "is_active", true);
+	
+	if (object_exists(help))
+	{
+	    instance_destroy(help, false);
+	}
 }
 else
 {

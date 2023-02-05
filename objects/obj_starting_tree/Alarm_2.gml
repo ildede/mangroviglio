@@ -16,5 +16,11 @@ if (array_length(self.roots) > 0)
 			cur_index += 1;
 		}
 	}
+	if (array_length(self.roots) = 0)
+	{
+		alarm[4] = 10;
+		self.root_creation = [];
+		obj_restart.image_blend = c_red;
+	}
 }
 alarm[2] = room_speed * 1;

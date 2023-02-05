@@ -13,6 +13,10 @@ if (array_length(self.root_creation) > 0)
 		{
 			variable_instance_set(self.roots[active_root], "is_active", true);
 		}
+		if (array_length(self.roots) == 2 || array_length(self.roots) == 3)
+		{
+			instance_create_depth(x, y, depth - 10, help);
+		}
 		alarm[1] = room_speed * 30;
 	}
 	else
