@@ -67,6 +67,7 @@
     {"id":{"name":"spr_root_end_right","path":"sprites/spr_root_end_right/spr_root_end_right.yy",},"order":0,},
     {"id":{"name":"obj_rock_2","path":"objects/obj_rock_2/obj_rock_2.yy",},"order":0,},
     {"id":{"name":"obj_hippo","path":"objects/obj_hippo/obj_hippo.yy",},"order":0,},
+    {"id":{"name":"snd_root_dead","path":"sounds/snd_root_dead/snd_root_dead.yy",},"order":0,},
     {"id":{"name":"obj_temporary_obstacle","path":"objects/obj_temporary_obstacle/obj_temporary_obstacle.yy",},"order":0,},
     {"id":{"name":"spr_root_straight_3","path":"sprites/spr_root_straight_3/spr_root_straight_3.yy",},"order":0,},
     {"id":{"name":"spr_root_bent_1","path":"sprites/spr_root_bent_1/spr_root_bent_1.yy",},"order":0,},

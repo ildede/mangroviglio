@@ -153,6 +153,7 @@ if (!self.is_dead)
 	else
 	{
 		self.is_dead = true;
+		audio_play_sound(snd_root_dead, 1, false);
 	}
 	alarm[0] = room_speed * 3;
 }
