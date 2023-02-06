@@ -165,3 +165,5 @@ if (!audio_is_playing(music_intro) && !audio_is_playing(music_loop))
 	audio_play_sound(music_intro, 1, false);
 	alarm[5] = room_speed * len - 20;
 }
+
+points = 0;
